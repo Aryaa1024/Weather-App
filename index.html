@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Weather Clock</title>
+        <link rel="stylesheet" href="css/weather.css" type="text/css"/>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="search-box">
+                    <input type="text" placeholder="Enter your Location" class="input-box"/>
+                    <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+                </div>
+                <div class="weather-body">
+                    <img src="images/cloud.png" alt="Weather Image" class="weather-img">
+                    <div class="weather-box">
+                        <p class="temperature">0 °C</p>
+                        <p class="description">Light Rain</p>
+                    </div>
+                    <div class="weather-details">
+                        <div class="humidity">
+                            <i class="fa-sharp fa-solid fa-droplet"></i>
+                            <div class="text">
+                                <span id="humidity">0 %</span>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+
+                        <div class="wind">
+                            <i class="fa-solid fa-wind"></i>
+                            <div class="text">
+                                <span id="wind-speed">0 Km / Hr</span>
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://kit.fontawesome.com/9b3b6ef52f.js" crossorigin="anonymous"></script>
+        <script src="js/weather.js" rel="javascript" type="text/javascript"></script>
+    </body>
+</html>
